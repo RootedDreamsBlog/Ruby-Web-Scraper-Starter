@@ -95,3 +95,5 @@ Once your scraper works locally, there are several practices worth adopting befo
 **Legal and ethical use**: Always review a website's Terms of Service before scraping. Prefer official APIs when available, and never scrape personal or private data without explicit permission.
 
 *Happy scraping — and remember to be a good citizen of the web.*
+
+This project is part of a deep-dive tutorial on my blog: [https://www.rooteddreams.net/web-scraping-with-ruby-guide/]
