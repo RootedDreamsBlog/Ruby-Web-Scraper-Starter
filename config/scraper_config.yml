@@ -1,0 +1,14 @@
+scraper:
+  delay_between_requests: 2   # seconds
+  max_retries: 3
+  output_file: "output/results.csv"
+
+targets:
+  - name: "Books to Scrape"
+    url: "https://books.toscrape.com"
+    type: "static"
+    selectors:
+      item: "article.product_pod"
+      title: "h3 a"
+      link: "h3 a"
+      price: "p.price_color"
